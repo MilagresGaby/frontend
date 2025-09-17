@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Filter, ChevronDown } from 'lucide-react';
-// import ProfessionalCard from '../components/ProfessionalCard';
-// import Pagination from '../components/Pagination';
+
 
 const SearchPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -69,17 +68,7 @@ const SearchPage = () => {
           </div>
         </div>
 
-        {/* Results */}
-        {/* <div className="space-y-4 mb-8"> */}
-          {/* {professionals.map((professional) => ( */}
-            {/* // <ProfessionalCard  */}
-              {/* key={professional.id}  */}
-              {/* professional={professional}  */}
-            {/* /> */}
-          {/* ))} */}
-        {/* </div> */}
-
-{/* Pagination currentPage={1} totalPages={10} /> */}
+      
       </div>
 
     </div>
